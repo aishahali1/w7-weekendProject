@@ -49,12 +49,12 @@ function Login() {
         required
       />
       </div>
-      <button
+   <Link to='/chat'>   <button
         type="submit"
-        className="bg-[#384D48] hover:bg-[#2F3F3B] text-white font-semibold uppercase w-full py-3 rounded-lg transition duration-200"
+        className="bg-[#384D48] hover:bg-[#2F3F3B] text-white font-semibold uppercase w-full py-3 rounded-lg transition duration-200" 
       >
         Login
-      </button>
+      </button></Link>
       <span>Create a new account? <Link to="/register" className='underline text-[#266154]'>Register here</Link></span>
     </form>
   </div>

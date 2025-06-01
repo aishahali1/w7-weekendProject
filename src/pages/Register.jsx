@@ -72,12 +72,12 @@ function Register() {
             <input type='checkbox'></input>
             <p>Agree to the terms of use & privacy policy</p>
           </div>
-          <button
+          <Link to='/'><button
             type="submit"
             className="bg-[#384D48] hover:bg-[#2F3F3B] text-white font-semibold uppercase w-full py-3 rounded-lg transition duration-200"
           >
             Register
-          </button>
+          </button></Link>
           <span>Already have an account? <Link to="/" className='underline text-[#266154]'>Login here</Link></span>
         </form>
       </div>
