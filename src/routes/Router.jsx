@@ -4,9 +4,9 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router";
-import Login from '../pages/login';
 import Chat from '../pages/Chat';
 import Register from '../pages/Register';
+import Login from '../pages/Login';
 
 function Layout(){
     return(<>
