@@ -4,10 +4,8 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router";
-import Navbar from '../components/Navbar';
 import Login from '../pages/login';
 import Chat from '../pages/Chat';
-import Profile from '../pages/Profile';
 import Register from '../pages/Register';
 
 function Layout(){

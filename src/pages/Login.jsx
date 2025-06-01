@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { FaUser } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
 
